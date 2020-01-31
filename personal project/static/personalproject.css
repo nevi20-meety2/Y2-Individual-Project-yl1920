@@ -1,0 +1,82 @@
+body{
+	background-image: url('images/bg1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+/*.rectangle {*/
+  height: 80px;
+  width: 300px;
+  background-color: #EF3E36 ;
+  position: absolute;
+  left: 30%;
+  top:700px;
+  border-radius: 25px;
+/*}*/
+/*.rectangle2 {*/
+  height: 80px;
+  width: 300px;
+  background-color: #EF3E36 ;
+  position: absolute;
+  right: 30%;
+  top:700px;
+  border-radius: 25px;
+/*}*/
+.login{
+  color: white;
+  text-shadow: 3px 2px black;
+  position: absolute;
+  right: 660px;
+  top:670px;
+  font-family:"OneDirection" ;
+  font-size: 30px;
+}
+.signup{
+  color: white;
+  text-shadow: 3px 2px black;
+  position: absolute;
+  left: 630px;
+  top:670px;
+  font-family:"OneDirection" ;
+  font-size: 30px;
+}
+.title{
+  color: white;
+  text-shadow: 7px 7px black;
+  text-align: center;
+  position: absolute;
+  top: 60px;
+  font-family:"OneDirection" ;
+  font-size: 70px;
+
+}
+.loginbtn {
+  background-color:#EF3E36 ;
+  text-decoration: none;
+  height: 80px;
+  width: 300px;
+  background-color: #EF3E36 ;
+  position: absolute;
+  right: 30%;
+  top:700px;
+  border-radius: 25px;
+  color: white;
+  text-shadow: 3px 2px black;
+  font-family:"OneDirection" ;
+  font-size: 60px;
+}
+.signupbtn {
+  background-color:#EF3E36 ;
+  text-decoration: none;
+  height: 80px;
+  width: 300px;
+  background-color: #EF3E36 ;
+  position: absolute;
+  left: 30%;
+  top:700px;
+  border-radius: 25px;
+  color: white;
+  text-shadow: 3px 2px black;
+  font-family:"OneDirection" ;
+  font-size: 60px;
+}

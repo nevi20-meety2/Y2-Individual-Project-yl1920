@@ -1,0 +1,93 @@
+body{
+  background-color: #F2EEE8;
+ }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family:"OneDirection" ;
+  font-size: 30px;
+}
+
+li {
+  float: left;
+}
+
+li a, .ohmygodbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .ohmygod:hover .ohmygodbtn {
+  background-color: #EF3E36;
+}
+
+li.ohmygod {
+  display: inline-block;
+}
+
+.ohmygod-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.ohmygod-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.ohmygod-content a:hover {background-color: #EF3E36;}
+
+.ohmygod:hover .ohmygod-content {
+  display: block;
+}
+
+.fineline{
+  
+}
+.hs1{
+  /*position: absolute;*/
+  /*padding-left: 30%;*/
+}
+.thisis{
+  /*position: absolute;*/
+  /*padding-left: 30%;*/
+}
+.position{
+  align-self: center;
+}
+
+.col{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.margin{
+  margin-top: 90px;
+}
+h1{
+  color: black;
+  font-family:"OneDirection" ;
+  font-size: 100px;
+  text-align: center;
+  padding: -30px;
+  margin: 10px;
+  top: 20px;
+}
+
+a:hover {
+  color: white;
+  text-decoration:none;
+}

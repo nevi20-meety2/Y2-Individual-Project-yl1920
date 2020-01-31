@@ -1,0 +1,67 @@
+body{
+	background-image: url('images/bg1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1{
+	font-size:120px !important;
+}
+.title{
+  color: white;
+  text-shadow: 7px 7px black;
+  position: absolute;
+  top: 40px;
+  left:780px;
+  font-family:"OneDirection" ;
+}
+.next {
+  background-color:#EF3E36 ;
+  text-decoration: none;
+  height: 80px;
+  width: 300px;
+  background-color: #EF3E36 ;
+  position: absolute;
+  left: 21%;
+  top:450px;
+  border-radius: 25px;
+  color: white;
+  text-shadow: 3px 2px black;
+  font-family:"OneDirection" ;
+  font-size: 60px;
+}
+.fullname{
+	position: absolute;
+	top:30%;
+	left:700px;
+}
+.username{
+	position: absolute;
+	top:200%;
+	left:0px;	
+}
+.social{
+	position: absolute;
+	top:370%;
+	left:25%;	
+}
+.favmember{
+	position: absolute;
+	top:730%;
+	left:0px;	
+}
+.opinion{
+	position: absolute;
+	top:730%;
+	left:270px;	
+}
+.favsong{
+	position:absolute;
+	top:530%;
+	left:0px;	
+}
+.favalbum{
+	position: absolute;
+	top:530%;
+	left:270px;	
+}

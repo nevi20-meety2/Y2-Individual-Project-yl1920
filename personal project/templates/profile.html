@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>profile</title>
+	<link rel="stylesheet" href="/static/profile.css">
+</head>
+<body>
+<ul>
+  <li><a href="/harrystyles">Home</a></li>
+  <li><a href="/profile">Profile</a></li>
+  <li><a href="/dm">dm</a></li>
+  <li><a href="/explore">explore</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">menu</a>
+    <div class="dropdown-content">
+      <a href="/quizzes">quizzes</a>
+      <a href="/social">social media posts</a>
+      <a href="news">news</a>
+      <a href="/tours">tours & tickets</a>
+      <a href="/merch">merch</a>
+      <a href="/opinions">opinions</a>
+      <a href="/song">song of the day</a>
+      <a href="/vote">vote for awards</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">change</a>
+    <div class="dropdown-content">
+      <a href="/harry">harry styles</a>
+      <a href="/liam">liam payne</a>
+      <a href="/zayn">zayn malik</a>
+      <a href="/louis">louis tomlinson</a>
+      <a href="/niall">niall horan</a>
+      <a href="/1d">one direction</a>
+    </div>
+  </li>
+</ul>
+<div class="info">
+<p>name: {{user.Fname}} {{user.Lname}}</p>
+<p>username: {{user.username}}</p>
+<p>{{user.favmember}}</p>
+<p>{{user.song}}</p>
+<p>{{user.favalbum}}</p>
+<p>{{user.media}}</p>
+<p>{{user.opinion}}</p>
+</div>
+</body>
+</html>

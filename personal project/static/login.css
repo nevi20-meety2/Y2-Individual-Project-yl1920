@@ -1,0 +1,46 @@
+body{
+	background-image: url('images/bg1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+}
+h1{
+	font-size:120px !important;
+}
+.title{
+  color: white;
+  text-shadow: 7px 7px black;
+  position: absolute;
+  top:90px;
+  left:780px;
+  font-family:"OneDirection" ;
+}
+
+.username{
+	position: absolute;
+	top:450px;
+	left:640px;
+	font-size:20px;
+}
+.password{
+	position: absolute;
+	top:450px;
+	left:10px;
+	font-size:20px;
+}
+.next {
+  background-color:#EF3E36 ;
+  text-decoration: none;
+  height: 80px;
+  width: 300px;
+  background-color: #EF3E36 ;
+  position: absolute;
+  left: 41%;
+  top:690px;
+  border-radius: 25px;
+  color: white;
+  text-shadow: 3px 2px black;
+  font-family:"OneDirection" ;
+  font-size: 60px;
+}
