@@ -81,6 +81,30 @@ def spotifyz():
 def spotifyone():
      return render_template('spotifyone.html')
 
+@app.route('/mvharry')
+def musicvideoharry():
+     return render_template('mvharry.html')
+
+@app.route('/mvlouis')
+def musicvideolouis():
+     return render_template('mvlouis.html')
+
+@app.route('/mvliam')
+def musicvideoliam():
+     return render_template('mviam.html')
+
+@app.route('/mvniall')
+def musicvideoniall():
+     return render_template('mvniall.html')
+
+@app.route('/mvzayn')
+def musicvideozayn():
+     return render_template('mvzayn.html')
+
+@app.route('/mvone')
+def musicvideoone():
+     return render_template('mvone.html')
+
 @app.route('/profile' ,methods=["GET","POST"])
 def gotoprofile():
     if request.method =="GET":
